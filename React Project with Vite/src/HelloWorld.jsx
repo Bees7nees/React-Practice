@@ -1,6 +1,6 @@
 #! Following Develhope's "Rendering a component" example
 
-export HelloWorld = () => {
+const HelloWorld = () => {
     return (
         <div>
             <h1>Hello World</h1>
