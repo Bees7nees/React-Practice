@@ -1,13 +1,15 @@
 import '@/styles/App.css'
 import ReasonsWhy from '@/components/ReasonsWhy'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
-  console.log('Hello World')
 
   return (
     <main>
-      <h1>Hello World</h1>
+      <Header />
       <ReasonsWhy />
+      <Footer />
     </main>
   )
 }
